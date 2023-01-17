@@ -1,0 +1,119 @@
+/* Deafult Margin & Padding */
+/*-- Margin Top --*/
+.mt-45 {
+	margin-top: 45px;
+}
+
+/*-- Margin Bottom --*/
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+/*-- Padding Top --*/
+.pt-20 {
+	padding-top: 20px;
+}
+.pt-50 {
+	padding-top: 50px;
+}
+.pt-90 {
+	padding-top: 90px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.pt-150 {
+	padding-top: 150px;
+}
+/*-- Padding Bottom --*/
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+.pb-90 {
+	padding-bottom: 90px;
+}
+.pb-150 {
+	padding-bottom: 150px;
+}
+.pb-200 {
+	padding-bottom: 200px;
+}
+/*-- Padding Left --*/
+
+/*-- Padding Right --*/
+
+/* font weight */
+.f-700{font-weight: 700;}
+.f-600{font-weight: 600;}
+.f-500{font-weight: 500;}
+.f-400{font-weight: 400;}
+.f-300{font-weight: 300;}
+
+/* Background Color */
+
+.gray-bg {
+	background: #f7f7fd;
+}
+.white-bg {
+	background: #fff;
+}
+.black-bg {
+	background: #222;
+}
+.theme-bg {
+	background: #222;
+}
+.primary-bg {
+	background: #222;
+}
+/* Color */
+
+.white-color {
+	color: #fff;
+}
+.black-color {
+	color: #222;
+}
+.theme-color {
+	color: #222;
+}
+.primary-color {
+	color: #222;
+}
+/* black overlay */
+
+[data-overlay] {
+	position: relative;
+}
+[data-overlay]::before {
+	background: #000 none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+[data-overlay="3"]::before {
+	opacity: 0.3;
+}
+[data-overlay="4"]::before {
+	opacity: 0.4;
+}
+[data-overlay="5"]::before {
+	opacity: 0.5;
+}
+[data-overlay="6"]::before {
+	opacity: 0.6;
+}
+[data-overlay="7"]::before {
+	opacity: 0.7;
+}
+[data-overlay="8"]::before {
+	opacity: 0.8;
+}
+[data-overlay="9"]::before {
+	opacity: 0.9;
+}

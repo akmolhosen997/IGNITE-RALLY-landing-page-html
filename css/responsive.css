@@ -1,0 +1,341 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .header .header-title h2 {
+        font-size: 35px;
+    }
+    .header .header-title h1 {
+        font-size: 60px;
+    }
+    .experience.content {
+        padding-top: 25px;
+    }
+    .experience.content ul li {
+        margin: 0px 0;
+    }
+    .included .section-btn h1 {
+        margin: 0 132px;
+        margin-bottom: 30px;
+    }
+    .membar .section-btn h1 {
+        margin: 0 60px;
+        margin-bottom: 30px;
+    }
+    .why .section-btn > h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    .event-map img {
+        left: -200px;
+    }
+    .schedule .schedule-box p {
+        font-size: 14px;
+    }
+    .schedule-box {
+        min-height: 370px;
+    }
+    .vip .section-title h2.black-title {
+        padding: 0px 0px;
+        font-size: 31px;
+    }
+    .vip .section-title p {
+        padding-left: 0;
+    }
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* defult css */
+    h2 {
+        font-size: 25px;
+    }
+
+    .header .header-bg {
+        background-image: url(../img/bg/header-bg.jpg);
+        background-position: bottom;
+        background-size: contain;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-color: #000;
+    }
+    .header .header-title h2 {
+        font-size: 30px;
+    }
+    .header .header-title h1 {
+        font-size: 60px;
+    }
+    .experience.content {
+        padding-top: 10px;
+    }
+    .experience.content ul li {
+        margin: 5px 0;
+    }
+    .experience .section-title h2 {
+        margin-bottom: 18px;
+    }
+    .experience {
+        padding-bottom: 90px;
+    }
+    .included .included-box {
+        margin: 15px auto;
+    }
+    .included .section-btn h1 {
+        margin: 0 15px;
+        margin-bottom: 30px;
+    }
+    .membar .section-btn h1 {
+        margin: 0 13px;
+    }
+    .membar .border-btn {
+        padding: 20px 25px;
+        margin: 25px 5px;
+    }
+    .event-box {
+        margin-left: auto;
+    }
+    .event-list ul li p {
+        font-size: 18px;
+    }
+    .event-map img {
+        left: -170px;
+        width: 280px;
+    }
+    .schedule-box {
+        width: 60%;
+        margin: 10px auto;
+    }
+    .experience-img .experience-style2 {
+        width: 150px;
+    }
+    .experience-img .experience-style1 {
+        width: 130px;
+    }
+    .experience.content {
+        padding-bottom: 20px;
+    }
+    .footer-logo {
+        text-align: center;
+        margin-top: -100px;
+    }
+    .footer-nav {
+        text-align: center;
+    }
+    .footer-dev {
+        text-align: left;
+    }
+    .footer-social i {
+        margin-left: 8px;
+    }
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    /* defult css */
+    .section-btn h1 {
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+    .border-btn {
+        font-size: 13px;
+        padding: 25px 18px;
+        margin: 8px 5px;
+        width: 270px;
+    }
+/* defult css ends */
+
+    .logo a img {
+        width: 99px;
+    }
+    .btn {
+        font-size: 12px;
+        letter-spacing: 0px;
+        padding: 20px 10px;
+    }
+    .header .header-btn .btn {
+        margin-left: -10px;
+    }
+    .side-nav-wrap ul li a {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .side-nav .side-nav-body {
+        width: 100%;
+        padding: 50px 90px;
+    }
+    .header .header-title {
+        margin-top: -15px;
+    }
+    .header .header-title h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+    }
+    .header .header-title h1 {
+        letter-spacing: 1px;
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .header .header-title span {
+        font-size: 15px;
+    }
+    .header .header-bg {
+        background-position: bottom;
+        background-size: contain;
+        height: 375px;
+        background-repeat: no-repeat;
+        background-color: #000;
+    }
+    .welcome {
+        background-image: url(../img/bg/schedule-bg.jpg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .experience {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .experience-img .experience-style1 {
+        right: 0px;
+        width: 147px;
+
+    }
+    .experience-img .experience-style2 {
+        width: 200px;
+    }
+    .section-title h2 {
+        font-size: 23px;
+    }
+    .experience .section-btn h1 {
+        font-size: 23px;
+    }
+    .experience.content {
+        padding-bottom: 0;
+    }
+    .included .section-title h2 {
+        margin: 0 0px;
+    }
+    .included {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-position: top;
+        background-size: cover;
+    }
+    .included .section-btn h1 {
+        margin: 0 0px;
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .membar .section-btn h1 {
+        font-size: 23px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .why .section-title h2.white-title {
+        font-size: 25px;
+    }
+    .why .section-btn > h1 {
+        font-size: 24px;
+    }
+    .included .included-box {
+        margin: 10px auto;
+    }
+    .sponsor-logo {
+        margin: 25px auto;
+    }
+    .event-box {
+        margin-left: 0px;
+        padding: 20px 10px;
+        position: relative;
+
+    }
+    .event-box-title h2 {
+        font-size: 20px;
+    }
+    .event-box-title p {
+        font-size: 15px;
+    }
+    .event-map img {
+        width: 150px;
+    }
+    .event-map {
+        position: absolute;
+        top: -284px;
+        right: -105px;
+    }
+    .sm-full {
+        max-width: 100% !important;
+        flex: 100% !important;
+    }
+    .event-list .event-list-1 {
+        margin-right: 6px;
+    }
+    .event-list ul li p {
+        font-size: 13px;
+    }
+    .event-box-title {
+        margin-bottom: 160px;
+    }
+    .schedule-box {
+        margin: 10px auto;
+    }
+    .schedule .schedule-box p {
+        font-size: 14px;
+    }
+    .experience {
+        padding-bottom: 0;
+    }
+    .experience .section-btn {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .sm-footer-logo {
+        text-align: center;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    .footer-nav {
+        margin-bottom: 30px;
+    }
+    .footer {
+        margin-top: -45px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+    .footer-social {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footer .footer-nav ul li a {
+        font-size: 11px;
+    }
+
+    
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.header .header-bg {
+	background-position: bottom;
+	background-size: contain;
+	height: 476px;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+ 
+}
